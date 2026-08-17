@@ -4,15 +4,15 @@
 using namespace std;
 
 // Declaración de funciones por estudiante
-void calcularAreaTriangulo();   // Estudiante 1
-void ConvertirCelsiusFahrenheit(); // Estudiante 2
-void determinarParImpar();      // Estudiante 3
-void calcularPromedioNotas();   // Estudiante 4
-void calcularFactorial();       // Estudiante 5
-void tablaMultiplicar();        // Estudiante 6
-void calcularDescuento();       // Estudiante 7
-void calcularIMC();             // Estudiante 8
-void generarSerieFibonacci();   // Estudiante 9
+void calcularAreaTriangulo();   // Diego
+void ConvertirCelsiusFahrenheit(); // Luis Angel
+void determinarParImpar();      // Javier
+void calcularPromedioNotas();   // Owen
+void calcularFactorial();       // Merly
+void tablaMultiplicar();        // Helany
+void calcularDescuento();       // Jefferson
+void calcularIMC();             // Sergio
+void generarSerieFibonacci();   // Dani
 
 int main() {
     int opcion = 0;
