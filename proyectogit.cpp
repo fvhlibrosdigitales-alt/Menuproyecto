@@ -99,8 +99,23 @@ void calcularDescuento() {
 
 // Estudiante 8: Pide peso (kg) y altura (m), calcula el IMC (peso / altura^2).
 void calcularIMC() {
-    cout << "\n[Opcion 8] En proceso de desarrollo..." << endl;
-}
+     	float peso,altura,imc;
+   	cout<<"ingrese su peso en kg"<<endl;
+   	cin>>peso;
+   	cout<<"ingrese su altura en metros "<<endl;
+   	cin>>altura;
+   	imc = peso / (altura * altura);
+   	cout << "Tu IMC es: " << imc << endl;
+   	
+    if (imc < 18.5) {
+        cout << "Clasificacion: Bajo peso" <<endl;
+    } else if (imc >= 18.5 && imc < 25) {
+        cout << "Clasificacion: Peso normal" <<endl;
+    } else if (imc >= 25 && imc < 30) {
+        cout << "Clasificacion: Sobrepeso" <<endl;
+    } else {
+        cout << "Clasificacion: Obesidad" <<endl;
+    }
 
 // Estudiante 9: Pide la cantidad N de términos a mostrar de la serie de Fibonacci.
 void multiplicar5numeros() {
