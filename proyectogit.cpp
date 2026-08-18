@@ -64,7 +64,12 @@ void calcularAreaTriangulo() {
 
 // Estudiante 2: Pide grados Celsius e imprime la conversión a Fahrenheit ( (C * 9/5) + 32 ).
 void ConvertirCelsiusFahrenheit() {
-    cout << "\n[Opcion 2] En proceso de desarrollo..." << endl;
+    
+    float C;
+    cout<<"Ingrese su Temperatura en celsius: ";
+	cin>>C;
+	
+	cout<<C<<"C"<<" = "<<(C * 9/5) + 32<<"F"<<endl;    
 }
 
 // Estudiante 3: Pide un número entero e indica si es Par o Impar usando el operador %.
