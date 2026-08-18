@@ -94,7 +94,25 @@ void tablaMultiplicar() {
 
 // Estudiante 7: Pide el precio y el % de descuento, muestra el total a pagar.
 void calcularDescuento() {
-    cout << "\n[Opcion 7] En proceso de desarrollo..." << endl;
+    float precio;
+	float descuento;
+	float total;
+	string producto;
+
+	cout << "\n[Opcion 7] Calculador de Descuento del 5%" << endl;
+	cout << "Ingrese el producto\n";
+	cin >> producto;
+
+	cout << "Ingrese el precio de la compra: Q";
+	cin >> precio;
+
+	descuento = precio * 0.05;
+	total = precio - descuento;
+	cout << "El precio del producto:  "<< producto << endl;
+
+	cout << "\nPrecio original: Q" << precio << endl;
+	cout << "Descuento (5%): Q" << descuento << endl;
+	cout << "Total a pagar: Q" << total << endl;
 }
 
 // Estudiante 8: Pide peso (kg) y altura (m), calcula el IMC (peso / altura^2).
