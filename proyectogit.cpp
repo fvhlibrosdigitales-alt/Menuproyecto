@@ -12,7 +12,7 @@ void calcularFactorial();       // Merly
 void tablaMultiplicar();        // Helany
 void calcularDescuento();       // Jefferson
 void calcularIMC();             // Sergio
-void generarSerieFibonacci();   // Dani
+void multiplicar5numeros();   // Dani
 
 int main() {
     int opcion = 0;
@@ -44,7 +44,7 @@ int main() {
             case 6:  tablaMultiplicar(); break;
             case 7:  calcularDescuento(); break;
             case 8:  calcularIMC(); break;
-            case 9:  generarSerieFibonacci(); break;
+            case 9:  multiplicar5numeros(); break;
             case 10: cout << "\nSaliendo del programa..." << endl; break;
             default: cout << "\nOpcion no valida. Intente de nuevo." << endl; break;
         }
@@ -98,6 +98,6 @@ void calcularIMC() {
 }
 
 // Estudiante 9: Pide la cantidad N de términos a mostrar de la serie de Fibonacci.
-void generarSerieFibonacci() {
+void multiplicar5numeros() {
     cout << "\n[Opcion 9] En proceso de desarrollo..." << endl;
 }
