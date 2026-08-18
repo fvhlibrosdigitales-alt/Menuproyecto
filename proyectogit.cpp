@@ -117,7 +117,16 @@ void calcularIMC() {
         cout << "Clasificacion: Obesidad" <<endl;
     }
 
-// Estudiante 9: Pide la cantidad N de términos a mostrar de la serie de Fibonacci.
+// Estudiante 9: Multiplica 5 numeros.
 void multiplicar5numeros() {
-    cout << "\n[Opcion 9] En proceso de desarrollo..." << endl;
+    
+    int n1,n2,n3,n4,n5;
+    cout"ingrese  cinco numeros "endl;
+    cin>>n1;
+    cin>>n2;
+    cin>>n3;
+    cin>>n4;
+    cin>>n5;
+    
+    cout<<"el resultado de los 5 numeros es "<<n1*n2*n3*n4*n5<<endl;
 }
