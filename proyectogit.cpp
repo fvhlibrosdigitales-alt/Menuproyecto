@@ -74,7 +74,18 @@ void ConvertirCelsiusFahrenheit() {
 
 // Estudiante 3: Pide un número entero e indica si es Par o Impar usando el operador %.
 void determinarParImpar() {
-    cout << "\n[Opcion 3] En proceso de desarrollo..." << endl;
+    int a;
+    cout<<"ingrese su primer numero: "<<endl;
+    cin>>a;
+    
+    if(a%2 == 0){
+    	
+    	cout<<"el numero es par"<<endl;
+    	
+	}else{
+		cout<<"el numero es impar"<<endl;
+	}
+    
 }
 
 // Estudiante 4: Pide 3 notas float, calcula el promedio y muestra si aprueba (>=60).
