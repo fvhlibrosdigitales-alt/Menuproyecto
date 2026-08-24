@@ -4,6 +4,7 @@
 using namespace std;
 
 // Declaración de funciones por estudiante
+//funcion prueba
 void calcularAreaTriangulo();   // Diego
 void ConvertirCelsiusFahrenheit(); // Luis Angel
 void determinarParImpar();      // Javier
