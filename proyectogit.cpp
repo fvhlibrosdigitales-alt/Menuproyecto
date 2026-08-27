@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-
+//Prueba
 // Declaración de funciones por estudiante
 //funcion prueba
 void calcularAreaTriangulo();   // Diego
