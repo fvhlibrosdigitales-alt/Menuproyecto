@@ -70,7 +70,12 @@ void ConvertirCelsiusFahrenheit() {
     cout<<"Ingrese su Temperatura en celsius: ";
 	cin>>C;
 	
-	cout<<C<<"C"<<" = "<<(C * 9/5) + 32<<"F"<<endl;    
+	cout<<C<<"C"<<" = "<<(C * 9/5) + 32<<"F"<<endl;  
+	
+	if(C > 30){
+		cout<<"es mucha temperatura!"<<endl;
+	}
+	  
 }
 
 // Estudiante 3: Pide un número entero e indica si es Par o Impar usando el operador %.
@@ -137,6 +142,7 @@ void calcularIMC() {
    	imc = peso / (altura * altura);
    	cout << "Tu IMC es: " << imc << endl;
    	
+
     if (imc < 18.5) {
         cout << "Clasificacion: Bajo peso" <<endl;
     } else if (imc >= 18.5 && imc < 25) {
@@ -146,12 +152,12 @@ void calcularIMC() {
     } else {
         cout << "Clasificacion: Obesidad" <<endl;
     }
-
+}
 // Estudiante 9: Multiplica 5 numeros.
-void multiplicar5numeros() {
+void multiplicar5numeros(){
     
     int n1,n2,n3,n4,n5;
-    cout"ingrese  cinco numeros "endl;
+    cout<<"ingrese  cinco numeros "<<endl;
     cin>>n1;
     cin>>n2;
     cin>>n3;
@@ -160,3 +166,4 @@ void multiplicar5numeros() {
     
     cout<<"el resultado de los 5 numeros es "<<n1*n2*n3*n4*n5<<endl;
 }
+
