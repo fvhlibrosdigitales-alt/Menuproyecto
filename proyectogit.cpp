@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-
+//hola
 using namespace std;
 
 // Declaración de funciones por estudiante
